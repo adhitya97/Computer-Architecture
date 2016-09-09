@@ -34,6 +34,7 @@ main:
 	la $a0,msg2
 	li $v0,4
 	syscall
+	
 	lw $a0,factorial
 	li $v0,1
 	syscall
