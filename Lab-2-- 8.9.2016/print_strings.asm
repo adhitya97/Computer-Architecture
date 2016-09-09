@@ -1,5 +1,5 @@
 .data
-	string1: .asciiz "Hello World\n"
+	string1: .asciiz "Hello World \n"
 
 .text
 .globl main
