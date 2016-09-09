@@ -20,6 +20,7 @@ main:
 	la $a0,msg
 	li $v0,4
 	syscall
+	
 	lw $a0,sum_of_squares
 	li $v0,1
 	syscall
