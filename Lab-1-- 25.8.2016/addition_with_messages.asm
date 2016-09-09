@@ -1,7 +1,7 @@
 # Start .text segment (program code)
-	.text
-	
-	.globl	main
+.text
+
+.globl	main
 main:
 	# Print string msg1
 	li	$v0,4		# print_string syscall code = 4
