@@ -23,6 +23,7 @@ main:
 		move $a0,$t4
 		li $v0,1
 		syscall
+		
 		la $a0,tab
 		li $v0,4
 		syscall
