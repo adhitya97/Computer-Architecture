@@ -1,5 +1,5 @@
-# Volume of a parallelepiped = a * b * c
-# Surface area of a parallelepiped = 2 * (a*b + b*c + c*a)
+# Volume of a rectangular parallelepiped = a * b * c
+# Surface area of a rectangular parallelepiped = 2 * (a*b + b*c + c*a)
 
 .data
 	sidea: .word 5
