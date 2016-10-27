@@ -16,4 +16,5 @@ module define_circuit(a,b,c,f1,f2);
 	and(t3,t1,l);
 
 	or(f1,t2,t3);
+	
 endmodule
