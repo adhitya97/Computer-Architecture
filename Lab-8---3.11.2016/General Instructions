@@ -1,6 +1,20 @@
-Three stages of Verilog Design
+Three stages of Verilog Design:
+	Level 1 - Gate Level Design
+	Level 2 - Data Flow Design
+	Level 3 - Behavioural Design
 
 
-Level 1 - Gate Level Design
-Level 2 - Data Flow Design
-Level 3 - Behavioural Design
+
+In Data Flow Design:
+		Symbol	|		Operations
+	1)	+		|		Binary Addition
+	2)	-		|		Binary Subtraction
+	3)	&		|		Bitwise AND
+	4)	|		|		Bitwise OR
+	5)	^		|		Bitwise XOR
+	6) 	~		|		Bitwise NOT
+	7)	==		|		Equals
+	8) 	>		| 		Greater Than	
+	9)	<		|		Lesser Than
+	10)	{}		|		Concatenation
+	11)	?  :	|		Conditional (If...Else)
