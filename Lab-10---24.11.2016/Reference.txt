@@ -1,0 +1,60 @@
+Behavioural Modelling
+
+Two types of abstract behaviour:
+	1) Initial - (fork/join)
+				  initial
+				  	begin
+				  	.
+				  	.
+				  	.
+				  	.
+				  	end
+	2) Always - (always @ (A or B or C))
+				(always @ (posedge clk))
+
+
+In the test bench, we have to specify the clock cycle time
+	initial
+		begin
+			clock = 1b'0;
+			repeat(30)
+			#10
+			clock = ~ clock;
+		end
+
+
+
+Procedural Assignments:
+	1) Blocking Statements (=)
+	2) Non-Blocking Statements (<=)
+
+
+
+Q1) Designing a D Flip-Flop
+
+		Truth-Table	
+		D 	| 	Q(t+1)
+		--------------
+		0	|	0
+		1	|	1
+
+
+
+Q2) Designing a T Flip-FLop
+	
+		Truth-Table
+		T 	|	Q(t+1)
+		---------------
+		0	|	Q(t)	- No change
+		1	|	Q'(t)	- Toggle/ Complement
+
+
+Q3) Designing a JK Flip Flop
+
+		Truth Table
+		J 	|   K 	| Q(t+1)
+		--------------------
+		0	|   0	|	Q(t)	No change
+		0	|   1	|	0
+		1	|	0	|	1
+		1	|	1	|	Q'(t)	Complement
